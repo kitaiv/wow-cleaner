@@ -1,0 +1,38 @@
+header{
+    background: #521194;
+    box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.15), inset 0px 0.836767px 0px rgba(255, 255, 255, 0.26);
+}
+
+.btn-home{
+    outline: none;
+    text-decoration: none;
+    background: linear-gradient(128.48deg, #AD61F8 -13.82%, #353DF3 111.79%), #242A38;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 24px;
+    color: #fff;
+    /* border: 3px solid #000; */
+    width: 240px;
+    height: 74px;
+    box-shadow: inset 0px 1px 0px #C3D2F5;
+}
+
+.btn-container{
+    box-shadow: 0px -11px 22px #3F3F3F, 0px 11px 38px #151515;
+    border-radius: 24px;
+}
+
+@media screen and (max-width: 479px) {
+    .btn-home{
+        width: 240px !important;
+        height: 40px !important;
+        border-radius: 11px !important;
+    }
+
+    .btn-container{
+        border-radius: 11px !important;
+    }
+}
+
+section{
+    background: #1E1E1E
+}
